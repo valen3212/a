@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elefantes Enamorados</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>¡Feliz Día de San Valentín! ❤️</h1>
+        </header>
+
+        <div class="elefantes">
+            <div class="elefante" id="elefante1"></div>
+            <div class="elefante" id="elefante2"></div>
+        </div>
+
+        <div class="globos-container">
+            <div class="globo" id="globo1" onclick="reventarGlobo('globo1')"></div>
+            <div class="globo" id="globo2" onclick="reventarGlobo('globo2')"></div>
+            <div class="globo" id="globo3" onclick="reventarGlobo('globo3')"></div>
+        </div>
+
+        <button class="no-btn" id="noBtn">No</button>
+    </div>
+
+    <audio id="popSound" src="assets/pop.mp3"></audio>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
